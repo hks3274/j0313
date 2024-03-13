@@ -41,12 +41,7 @@ public class T1_hashCode1 {
 		System.out.println("13(hashCode) => s1 : " + s1.hashCode()+", s4 : " + s4.hashCode()); //s4는 새로운 객체인데 값이 같다.
 		System.out.println("14(hashCode) => s4 : " + s4.hashCode()+", s5 : " + s5.hashCode()); //그리고 s5도 새로운 객체인데 값이 같다.
 		System.out.println();
-	//해쉬코드는 주소값이 아니라 객체속성이 같다는 뜻이다.
-		
-		System.out.println("11(hashCode) => s1 : " + s1.toString()+", s2 : " + s2.toString());
-		System.out.println("11(hashCode) => s4 : " + s4.toString()+", s5 : " + s5.toString());
-		
-		
-		
+	//해쉬코드는 주소값이 아니라 객체속성(데이터)이 같다는 뜻이다.
+	
 	}
 }
