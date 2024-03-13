@@ -20,7 +20,7 @@ public class T11_StringBuilder {
 		System.out.println("8.str2 : " + str2);
 		System.out.println("9.str2버퍼크기 : " + str2.capacity());
 		
-		str2.replace(2, 5, "!!!!!!!!");
+		str2.replace(2, 5, "!!!!!!!!"); //2번지에서 5번지사이를 !!!!!로 채워라
 		System.out.println("10.str2 : " + str2);
 		System.out.println("11.str2버퍼크기 : " + str2.capacity());
 
