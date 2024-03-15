@@ -24,8 +24,7 @@ public class Test4 extends JFrame {
 
 		// FlowLayout 객체 전달하기
 		setLayout(new FlowLayout(FlowLayout.CENTER)); // 레이아웃 정렬방식
-
-		// 버튼을 만들어서
+		// 버튼을 만들어서sdfdfs
 		JButton btn1 = new JButton("버튼1"); // 버튼 생성
 		JButton btn2 = new JButton("버튼2");
 		JButton btn3 = new JButton("버튼3");
